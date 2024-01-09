@@ -1,3 +1,4 @@
+
 namespace TestesUnitarios.Desafio.Console.Services
 {
     public class ValidacoesLista
@@ -28,6 +29,17 @@ namespace TestesUnitarios.Desafio.Console.Services
         public int RetornarMenorNumeroLista(List<int> lista)
         {
             return lista.Min();
+        }
+
+        public bool MultiplicarNumerosLista(List<int> lista, List<int> resultadoEsperado)
+        {
+            foreach(int n in lista)
+            {
+                if((n*2)!=resultadoEsperado[lista.IndexOf(n)]){
+                    return false;
+                }
+            }
+            return true;
         }
     }
 }

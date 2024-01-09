@@ -1,5 +1,5 @@
-# DIO - Trilha .NET - Testes Unitários com C#
-www.dio.me
+# Desafio do Bootcamp DecolaTech 2024 da DIO. Testes Unitários em C#.
+Foi preciso atualizar o projeto para .net 8.0, mas no geral todos os teste foram implementados conforme as instruções abaixo.
 
 ## Desafio de projeto
 Para este desafio, você precisará usar seus conhecimentos adquiridos no módulo de Testes Unitários com C#, da trilha .NET da DIO.
